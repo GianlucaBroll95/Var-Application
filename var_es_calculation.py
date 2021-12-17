@@ -2,10 +2,13 @@
 Executes the Var calculation
 Command line: py var_calculation.py --tickers tickers.xlsx --alpha 0.95 --lookback 365
 """
-import pandas as pd
+
 import argparse
-from utils.risk_measure import RiskMeasures, Portfolio
 import sys
+
+import pandas as pd
+
+from utils.risk_measure import RiskMeasures, Portfolio
 
 parser = argparse.ArgumentParser(f"\nThe script '{sys.argv[0]}' calculates the Value at Risk for a batch of stocks."
                                  f"\nUsage example:\n 'py var_calculation.py --tickers tickers.xlsx --alpha 0.95 --lookback 365'")

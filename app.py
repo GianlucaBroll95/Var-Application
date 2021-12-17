@@ -1,12 +1,17 @@
+"""
+App builder
+"""
 import os
 import sys
 import tkinter as tk
 from tkinter import ttk
 from tkinter.messagebox import showerror
-from utils.risk_measure import Portfolio, RiskMeasures
+
 import matplotlib
-from matplotlib.figure import Figure
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+from matplotlib.figure import Figure
+
+from utils.risk_measure import Portfolio, RiskMeasures
 
 matplotlib.use("TkAgg")
 
