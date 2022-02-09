@@ -23,3 +23,5 @@
 /.idea/workspace.xml
 /build/Historical Var Calculator/xref-Historical Var Calculator.html
 /venv/
+__pycache__/
+*.bak
